@@ -162,6 +162,13 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⚠️ Disclaimer
+
+**This project is intended for educational and research purposes only.**  
+Use of this tool must comply with all applicable laws and the terms of service of the websites being accessed.  
+The author does not condone or encourage any form of misuse, and assumes no liability for actions taken using this code.
+
+
 ## License
 
 Distributed under the MIT license. See `LICENSE` for more information.
