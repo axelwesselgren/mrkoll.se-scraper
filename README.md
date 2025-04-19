@@ -16,6 +16,7 @@
 ## About The Project
 
 <img src="images/commands.png" alt="Logo">
+
 A Python-based web scraper designed to collect data from the website [mrkoll.se](https://mrkoll.se). It supports searching for individuals based on geolocation, age, and gender. Future updates will include the ability to save data to a database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
