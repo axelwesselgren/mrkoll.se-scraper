@@ -1,0 +1,4 @@
+1. Restructure code
+2. Fix "next" feature
+3. Enable "lookup" feature
+4. Fix adding flags

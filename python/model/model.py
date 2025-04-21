@@ -1,6 +1,6 @@
 from pcs.pcs import PropertyChangeSupport
 from enums.change import Change
-from colorama import Fore, Style
+from view.colors import Colors
 
 class Model:
     def __init__(self):
@@ -20,7 +20,7 @@ class Model:
         self.pcs = PropertyChangeSupport()
 
     def prompt_and_check(self):
-        self.command = input(f"{Fore.CYAN}[PROMPT]{Style.RESET_ALL} Command > ")
+        self.command = input(f"{Colors.HIGHLIGHT}[PROMPT]{Colors.RESET} Command > ")
         self.fire_property_change(Change.VALIDATE)
 
     def fire_property_change(self, change: Change, old=None, new=None):

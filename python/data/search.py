@@ -14,5 +14,6 @@ class Search:
     
     def get_user_url(self):
         return f"https://mrkoll.se/resultat?n={self.search.replace(' ', '+')}"
+    
     def get_main_url(self):
         return f"https://mrkoll.se/resultat?n={self.search.replace(' ', '+')}&c={self.geo}&min={self.min}&max={self.max}&sex={self.gender}&c_stat=all&company="
