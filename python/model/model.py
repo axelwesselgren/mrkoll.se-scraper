@@ -16,6 +16,8 @@ class Model:
 
         self.save = False
         self.debug = False
+        
+        self.flags = init_flags()
 
         self.pcs = PropertyChangeSupport()
 
@@ -31,3 +33,15 @@ class Model:
 
     def remove_property_change_listener(self, listener):
         self.pcs.remove_property_change_listener(listener)
+        
+def init_flags():
+    return {
+        'gender': 'a',
+        'geo': "",
+        'min': 16,
+        'max': 120,
+        'pid': "",
+        'name': "",
+        'phone': "",
+        'index': -1,
+    }
